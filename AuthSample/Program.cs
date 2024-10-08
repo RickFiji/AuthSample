@@ -8,7 +8,7 @@ using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add MudBlazor services
+// Add MudBlazor services to the container.
 builder.Services.AddMudServices();
 
 // Add services to the container.
